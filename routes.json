@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-10-28T14:37:06.525720+00:00",
+  "sync_version": "3.162",
+  "script_hash": "63f0e0f40ef4",
+  "events": [],
+  "route_weather_cache": {
+    "points": {},
+    "version": 2
+  },
+  "brief_snapshots": [],
+  "route_weather_requests_this_sync": 0
+}

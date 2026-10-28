@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-10-28T14:37:06.525975+00:00",
+  "schema_version": 1,
+  "version": "3.162",
+  "script_hash": "63f0e0f40ef4",
+  "source": "intervals.icu",
+  "target_resolution": "as_stored",
+  "refresh": {
+    "status": "ok",
+    "consistency": "consistent",
+    "last_success_at": "2026-10-28T14:37:06.525975+00:00",
+    "last_content_change_at": "2026-10-28T14:37:06.525975+00:00",
+    "refresh_interval_secs": 21600
+  },
+  "counts": {
+    "folders": 1,
+    "workouts": 0
+  },
+  "folders": [
+    {
+      "id": 1050241,
+      "type": "FOLDER",
+      "name": "Workouts",
+      "description": "",
+      "visibility": "PRIVATE",
+      "read_only_workouts": false,
+      "can_edit": true,
+      "upstream_num_workouts": null,
+      "start_date_local": null,
+      "activity_types": null,
+      "num_workouts": 0,
+      "workout_ids": []
+    }
+  ],
+  "workouts": [],
+  "fetch_state": {
+    "last_attempt_at": "2026-10-28T14:37:06.525975+00:00",
+    "consecutive_failures": 0,
+    "next_attempt_after": "2026-10-28T20:37:06.525975+00:00",
+    "last_error": null,
+    "content_digest": "sha256:deba1c2f9d5cd6b461f7fd3a4b2d0c063702a41e4bc2abf62c91675729fc7cee",
+    "endpoint_mismatch_count": 0,
+    "endpoint_mismatch_ids": []
+  }
+}
