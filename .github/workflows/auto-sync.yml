@@ -26,14 +26,14 @@ jobs:
 
       - name: Verify sync.py exists
         run: |
-          if [ ! -f sync.py ]; then
+          if [ ! -f examples/sync.py ]; then
             echo "❌ ERROR: sync.py not found in repository!"
             echo "Files in current directory:"
             ls -la
             exit 1
           fi
           echo "✅ sync.py found"
-          echo "File size: $(wc -c < sync.py) bytes"
+          echo "File size: $(wc -c < examples/sync.py) bytes"
 
       - name: Verify secrets are set
         run: |
@@ -65,7 +65,7 @@ jobs:
           # Single-writer mode: generate files locally and let this workflow commit them.
           # Avoid sync.py GitHub API publishing here, because the later archive/commit
           # step stages the checkout copy of latest.json.
-          python sync.py \
+          python examples/sync.py \
             --athlete-id "$ATHLETE_ID" \
             --intervals-key "$INTERVALS_KEY" \
             --days 7 \
